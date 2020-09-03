@@ -8,6 +8,13 @@ public class VaultConfig {
 	//Line 2 in test1;
 	//Line 3 in master;
 	
+	public void method1_master() {
+		
+	}
+	
+	public void method2_master() {
+		
+	}
 	public void method1_test1() {
 		
 	}
