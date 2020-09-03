@@ -1,0 +1,12 @@
+spring.cloud.vault:
+    #host: localhost
+    #port: 8200
+    #scheme: https
+    uri: http://localhost:8200
+    connection-timeout: 5000
+    read-timeout: 15000
+    config:
+        order: -10
+    authentication: TOKEN
+    token: 00000000-0000-0000-0000-000000000000
+spring.application.name: random-app/dev
